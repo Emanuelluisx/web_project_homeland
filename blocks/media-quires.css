@@ -1,0 +1,79 @@
+@media (max-width: 768px) {  
+
+    
+
+    .lead {  
+        width: 80%; 
+        margin-left: 10%; 
+    }  
+
+    .lead__title {  
+        font-size: 3.8em;   
+    }  
+
+    .lead__subtitle {  
+        font-size: 1.6em; 
+    }  
+
+    .intro {  
+        width: 90%;
+        margin-left: 5%; 
+    }  
+
+    .intro__title {  
+        font-size: 2.5em; 
+    }  
+
+    .intro__quote,  
+    .intro__author {
+    font-size: 1.3em;
+    }
+
+    .intro__text {  
+        font-size: 0.81em; 
+    }  
+
+    .footer__copyright {
+        font-size: 0.81em;
+    }
+}  
+
+
+@media (max-width: 544px) {  
+
+    .logo {
+        width: 58.75%;
+        margin-left: 15.5%;
+    }
+
+    .lead {  
+        width: 95%; 
+        margin-left: 2.5%; 
+    }  
+
+    .lead__title {  
+        font-size: 3.2em; 
+    }  
+
+    .lead__subtitle {  
+        font-size: 1.5em; 
+    }  
+
+    .intro {  
+        width: 95%; 
+        margin-left: 2.5%; 
+    }  
+
+    .intro__title {  
+        font-size: 2em; 
+    }  
+
+    .intro__quote,  
+    .intro__author {
+        font-size: 1.1em;
+    }
+
+    .intro__text {  
+        font-size: 0.86em;  
+    }  
+}  
