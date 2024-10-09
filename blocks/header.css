@@ -1,4 +1,4 @@
-.lead {
+.header {
     width: 56.25%;
     display: flex;  
     justify-content: center; 
@@ -7,7 +7,7 @@
     margin-left: 21.875%;
 }
 
-.lead__title {
+.header__title {
     color: #FFFFFF;
     font-family: 'Inter', sans-serif;  
     font-weight: 900;
@@ -18,7 +18,7 @@
     margin-bottom: 1%;
 }
 
-.lead__subtitle {
+.header__subtitle {
     color: #FFFFFF;
     font-family: 'Inter', sans-serif;  
     font-weight: 400;
@@ -28,7 +28,7 @@
     font-size: 1.94em;
 }
 
-.lead__image {
+.header__image {
     display: flex;  
     justify-content: center; 
     align-items: center;
