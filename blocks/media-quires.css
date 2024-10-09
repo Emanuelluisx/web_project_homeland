@@ -2,16 +2,16 @@
 
     
 
-    .lead {  
+    .header {  
         width: 80%; 
         margin-left: 10%; 
     }  
 
-    .lead__title {  
+    .header__title {  
         font-size: 3.8em;   
     }  
 
-    .lead__subtitle {  
+    .header__subtitle {  
         font-size: 1.6em; 
     }  
 
@@ -46,16 +46,16 @@
         margin-left: 15.5%;
     }
 
-    .lead {  
+    .header {  
         width: 95%; 
         margin-left: 2.5%; 
     }  
 
-    .lead__title {  
+    .header__title {  
         font-size: 3.2em; 
     }  
 
-    .lead__subtitle {  
+    .header__subtitle {  
         font-size: 1.5em; 
     }  
 
