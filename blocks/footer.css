@@ -7,3 +7,15 @@
     align-items: center;
     margin-bottom: 5%;
 }
+
+@media (max-width: 768px) {
+    .footer__copyright {
+        font-size: 0.81em;
+    }
+}
+
+@media (max-width: 544px) {
+    .footer__copyright {
+        font-size: 0.81em;
+    }
+}

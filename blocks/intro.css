@@ -50,3 +50,43 @@
     font-size: 1.0em;
     line-height: 1.5;
 }
+
+@media (max-width: 768px) {
+    .intro {  
+        width: 90%;
+        margin-left: 5%; 
+    }  
+
+    .intro__title {  
+        font-size: 2.5em; 
+    }  
+
+    .intro__quote,  
+    .intro__author {
+    font-size: 1.3em;
+    }
+
+    .intro__text {  
+        font-size: 0.81em; 
+    }  
+}
+
+@media (max-width: 544px) {
+    .intro {  
+        width: 95%; 
+        margin-left: 2.5%; 
+    }  
+
+    .intro__title {  
+        font-size: 2em; 
+    }  
+
+    .intro__quote,  
+    .intro__author {
+        font-size: 1.1em;
+    }
+
+    .intro__text {  
+        font-size: 0.86em;  
+    }  
+}
