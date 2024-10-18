@@ -1,0 +1,253 @@
+.place {
+    padding: 148px;
+}
+
+.place__one {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: flex-start;
+}
+
+.place__two{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: flex-start;
+    margin-top: 5%;
+}
+
+.place__three{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: flex-start;
+    margin-top: 5%;
+}
+
+.place__four {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: flex-start;
+}
+
+.place__title {
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;  
+    font-weight: 900;
+    font-size: 3em;
+    max-width: 60%;
+}
+
+.place__image {
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);  
+   width: 460px;
+}
+
+.place__image-two{
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);  
+    width: 460px;
+}
+
+.place__button {
+    margin-top: 30px;
+    background-image: linear-gradient(to right,#0278FE, #003A7B);  
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+    width: 77.391304%;
+    height: 48px;
+}
+
+.place__buy {
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;  
+    font-size: 1em;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    padding: 13px;
+    text-decoration: none;
+}
+
+.place__info-one{
+    text-align: left; 
+    max-width: 49.186992%; 
+    color: #FFFFFF;
+    margin-top: 13%;
+    
+}
+
+.place__info-two{
+    text-align: left; 
+    max-width: 49.186992%; 
+    color: #FFFFFF;
+    margin-top: 3.5%;
+    
+}
+
+.place__info-three{
+    text-align: left; 
+    max-width: 49.186992%; 
+    color: #FFFFFF;
+    margin-top: 9%;
+}
+
+.place__info-four {
+    text-align: left; 
+    max-width: 49.186992%; 
+    color: #FFFFFF;
+    margin-top: 9.5%;
+}
+
+.place__main-artists{
+margin-bottom: 6%;
+}
+
+
+
+.place__artist {
+    color:#AAAAAA;
+    font-family: 'Inter', sans-serif;  
+    font-size: 0.8em;
+    font-weight: 400;
+    line-height: 1.5;
+    
+}
+
+.place__artists {
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;  
+    font-size: 1.1625em;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 0;  
+    
+}
+
+
+
+.place__text {
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;  
+    font-size: 1.1625em;
+    font-weight: 400;
+    line-height: 1.5;
+   
+}
+
+@media (max-width: 768px) {
+    .place {  
+        padding: 24px;  
+    }  
+
+    .place__title {  
+        font-size: 2.7em; 
+        max-width: 340px; 
+    }  
+
+    .place__image{
+        width: 340px;
+    }
+
+    .place__button {  
+        width: 355px; 
+        height: 48px;  
+    }  
+
+    .place__one,  
+    .place__two,  
+    .place__three,  
+    .place__four {  
+        flex-direction: row;  
+        align-items: left; 
+        justify-content: space-between;
+    }  
+
+    .place__info-one {
+        max-width: 352px;  
+        margin-top: 6.5%;
+        text-align: left;
+    }
+    .place__info-two{
+        max-width: 352px;  
+        margin-top: 3% ;
+        text-align: left;
+    }
+
+    .place__info-three {
+        max-width: 352px;  
+        margin-top: 10%;
+        text-align: left;
+    }
+
+    .place__info-four {  
+        max-width: 352px; 
+        margin-top: 11%; 
+        text-align: left; 
+    }  
+}
+
+@media (max-width: 544px) {
+    
+    .place {  
+        padding: 0%;
+        }  
+    
+        .place__one,
+        .place__two,
+        .place__three,
+        .place__four {  
+            flex-direction: column;
+            align-items: left; 
+        }  
+    
+        .place__title { 
+            
+            font-size: 2em; 
+            text-align: left; 
+            max-width: 100%;   
+            padding-left: 4%;
+            padding-right: 4%;
+        }  
+    
+        .place__image {  
+            width: 544px; 
+         
+        }  
+    
+        .place__button {  
+           order: 1;
+            width: 90%; 
+            height: 48px; 
+            margin-top: 20px;   
+            margin-left: 5%;
+        }  
+    
+        .place__artist{
+            font-size: 0.9em;
+            padding-left: 2%;
+            padding-right: 2%;
+        }
+    
+        
+        .place__info-one,
+        .place__info-two,
+        .place__info-three,
+        .place__info-four {  
+            order: 0;
+            max-width: 100%; 
+            text-align: left;  
+            margin-top: 10%; 
+            padding-left: 2%;
+            padding-right: 2%;
+        }  
+    
+        
+        .place__artists,  
+        .place__text {  
+           
+            font-size: 1.2em;  
+            padding-left: 2%;
+            padding-right: 2%;
+        }  
+}
