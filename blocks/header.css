@@ -44,6 +44,9 @@
         margin-left: 10%; 
     }  
 
+    .header__image{
+        margin-left: 1.4%;
+    }
     .header__title {  
         font-size: 3.8em;   
     }  
