@@ -38,6 +38,10 @@
     height: auto;
 }
 
+.header__photo {
+    height: auto;
+}
+
 @media (max-width: 768px) {
     .header {  
         width: 80%; 
@@ -48,12 +52,16 @@
         margin-left: 1.4%;
     }
     .header__title {  
-        font-size: 3.8em;   
+        font-size: 4.5em;   
     }  
 
     .header__subtitle {  
         font-size: 1.6em; 
     } 
+
+    .header__photo {
+        height: 530px;
+    }
 }
 
 @media (max-width: 544px) {
@@ -63,11 +71,14 @@
     }  
 
     .header__title {  
-        font-size: 3.8em;   
+        font-size: 4.1em;   
     }  
 
     .header__subtitle {  
         font-size: 1.6em; 
     }  
+    .header__photo {
+        height: 375px;
+    }
 }
 

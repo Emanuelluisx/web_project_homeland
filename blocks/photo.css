@@ -16,7 +16,7 @@ width: 100%;
     .photo {  
         grid-template-columns: repeat(2, 1fr); 
        align-items: center; 
-       width: 90%;
+       width: 88.5%;
     }  
 }
 
@@ -24,6 +24,6 @@ width: 100%;
     .photo {  
         grid-template-columns: 1fr; 
       padding: 5%;
-       width: 90%;
+       width: 91%;
     }
 }  
