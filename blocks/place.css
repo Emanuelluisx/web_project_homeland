@@ -139,6 +139,204 @@ margin-bottom: 6%;
    
 }
 
+@media (max-width: 1240px) {
+    .place {  
+        padding: 80px; /* Ajuste de padding */  
+    }  
+
+    .place__title {  
+        font-size: 2.5em; /* Ajuste de tamanho da fonte */  
+    }  
+
+    .place__image, .place__image-two {  
+        width: 450px; /* Ajuste de largura das imagens */  
+    }  
+
+    .place__button {  
+        width: 80%; /* Ajusta a largura do botão */  
+    }  
+
+    .place__info-one {
+        max-width: 50%;
+        margin-top: 40px;
+        
+    }
+    .place__info-two{
+        max-width: 50%;
+        margin-top: 17px;
+    }
+
+    .place__info-three {
+        max-width: 50%;
+        margin-top: 65px;
+    }
+
+    .place__info-four {  
+        max-width: 50%;
+        margin-top: 70px;
+    }   
+}
+
+@media (max-width: 1100px) {
+    .place {  
+        padding: 29px; /* Ajuste de padding */  
+    }  
+
+    .place__title {  
+        font-size: 3.1em; /* Ajuste de tamanho da fonte */  
+    }  
+
+    .place__image, .place__image-two {  
+        width: 450px; /* Ajuste da largura das imagens */  
+    }  
+
+    .place__button {  
+        width: 90%; /* Ajusta a largura do botão */  
+    }  
+
+    
+
+    .place__info-one {
+        max-width: 50%;
+        margin-top: 143px;
+        
+    }
+    .place__info-two{
+        max-width: 50%;
+        margin-top: 42px;
+    }
+
+    .place__info-three {
+        max-width: 50%;
+        margin-top: 100px;
+    }
+
+    .place__info-four {  
+        max-width: 50%;
+        margin-top: 104px;
+    }   
+}
+
+@media (max-width: 1000px) {
+    .place {  
+        padding: 28px; /* Ajuste de padding */  
+    }  
+
+    .place__title {  
+        font-size: 3.1em; /* Ajuste de tamanho da fonte */  
+    }  
+
+    .place__image, .place__image-two {  
+        width: 400px; /* Ajuste da largura das imagens */  
+    }  
+
+    .place__button {  
+        width: 90%; /* Ajusta a largura do botão */  
+    }  
+
+    
+    .place__info-one {
+        max-width: 50%;
+        margin-top: 143px;
+        
+    }
+    .place__info-two{
+        max-width: 50%;
+        margin-top: 105px;
+    }
+
+    .place__info-three {
+        max-width: 50%;
+        margin-top: 105px;
+    }
+
+    .place__info-four {  
+        max-width: 50%;
+        margin-top: 106px;
+    }   
+}
+
+@media (max-width: 900px) {
+    .place {  
+        padding: 27px; /* Ajuste de padding */  
+    }  
+
+    .place__title {  
+        font-size: 3em; /* Ajuste de tamanho da fonte */  
+    }  
+
+    .place__image, .place__image-two {  
+        width: 380px; /* Ajuste da largura das imagens */  
+    }  
+
+    .place__button {  
+        width: 95%; /* Ajusta a largura do botão */  
+    }  
+
+    
+    .place__info-one {
+        max-width: 50%;
+        margin-top: 135px;
+        
+    }
+    .place__info-two{
+        max-width: 50%;
+        margin-top: 97px;
+    }
+
+    .place__info-three {
+        max-width: 50%;
+        margin-top: 97px;
+    }
+
+    .place__info-four {  
+        max-width: 50%;
+        margin-top: 100px;
+    }   
+}
+
+@media (max-width: 850px){
+    .place {  
+        padding: 26.5px; /* Ajuste de padding */  
+    }  
+
+    .place__title {  
+        font-size: 2.7em; /* Ajuste de tamanho da fonte */  
+    }  
+
+    .place__image, .place__image-two {  
+        width: 345px; /* Ajuste da largura das imagens */  
+    }  
+
+    .place__button {  
+        width: 90%; /* Ajusta a largura do botão para ocupar 100% */  
+    }  
+
+
+    .place__artist {  
+        font-size: 0.7em; /* Ajuste do tamanho da fonte dos artistas */  
+    } 
+    .place__info-one {
+        max-width: 50%;
+        margin-top: 115px;
+        
+    }
+    .place__info-two{
+        max-width: 50%;
+        margin-top: 80px;
+    }
+
+    .place__info-three {
+        max-width: 50%;
+        margin-top: 83px;
+    }
+
+    .place__info-four {  
+        max-width: 50%;
+        margin-top: 83px;
+    }   
+}
+
 @media (max-width: 768px) {
     .place {  
         padding: 24px;  
@@ -201,6 +399,95 @@ margin-bottom: 6%;
         .place__two,
         .place__three,
         .place__four {  
+            flex-direction: row;
+            text-align: left; 
+        }  
+    
+        .place__title { 
+            
+            font-size: 3.1em; 
+            text-align: left; 
+            max-width: 100%;   
+            padding-left: 4%;
+            padding-right: 4%;
+        }  
+    
+        .place__image {  
+            width: 100%; 
+         
+        }  
+    
+        .place__button {  
+           order: 1;
+            width: 90%; 
+            height: 48px; 
+            margin-top: 20px;   
+            margin-left: 5%;
+        }  
+    
+        .place__artist{
+            font-size: 0.9em;
+            padding-left: 2%;
+            padding-right: 2%;
+        }
+    
+        
+        .place__artists,  
+        .place__text {  
+           
+            font-size: 1.2em;  
+            padding-left: 2%;
+            padding-right: 2%;
+        }  
+
+    .place__buy {
+        font-size: 0.7em;
+        padding-top: 6.2%;
+    }
+
+    .place__info-one {
+        max-width: 40%; 
+            text-align: left;  
+            margin-top: 19%; 
+            padding-left: 2%;
+            padding-right: 2%;
+    }
+
+    .place__info-two {
+        max-width: 40%; 
+            text-align: left;  
+            margin-top: 16%; 
+            padding-left: 2%;
+            padding-right: 2%;
+    }
+
+    .place__info-three {
+        max-width: 40%; 
+            text-align: left;  
+            margin-top: 16%; 
+            padding-left: 2%;
+            padding-right: 2%;
+    }
+
+    .place__info-four {
+        max-width: 40%; 
+            text-align: left;  
+            margin-top: 12%; 
+            padding-left: 2%;
+            padding-right: 2%;
+    }
+}
+
+
+@media (max-width: 460px) {
+    .place {  
+        padding: 0%;
+        }  
+    
+        .place__one,
+        .place__two,
+        .place__three,
+        .place__four {  
             flex-direction: column;
             text-align: left; 
         }  
@@ -214,10 +501,7 @@ margin-bottom: 6%;
             padding-right: 4%;
         }  
     
-        .place__image {  
-            width: 544px; 
-         
-        }  
+        
     
         .place__button {  
            order: 1;
@@ -226,7 +510,11 @@ margin-bottom: 6%;
             margin-top: 20px;   
             margin-left: 5%;
         }  
-    
+
+    .place__buy {
+        font-size: 1em;
+       padding-top: 3.5%
+    }
         .place__artist{
             font-size: 0.9em;
             padding-left: 2%;
@@ -255,3 +543,6 @@ margin-bottom: 6%;
             padding-right: 2%;
         }  
 }
+
+
+
